@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #edf0f5;
+}
+/*start header*/
+header{
+    background-color:  #3b5998   ;
+    overflow: auto;
+    height: 20%;
+    border-bottom: 2px solid black;
+}
+header h1{
+    float: left;
+    padding-left: 10%;
+    color: white;
+    font-weight: 800;
+    font-family: Verdana;
+    font-size: 3rem;
+    background-color:  #3b5998   ;
+    text-shadow: 1px 1px 1px gray;
+}
+header h1:hover{
+    cursor: pointer;
+}
+header table{
+    float: right;
+    padding-right: 10%;
+    padding-top: 1%;
+    color: white;
+    font-size: 1.5rem;
+    font-family: arial;
+    background-color:  #3b5998   ;
+}
+header table tr td{
+    padding-left: .5rem;
+    background-color:  #3b5998   ;
+}
+header table tr td input{
+    border: 1px solid black;
+    height: 1rem;
+}
+header table tr td button{
+    border: none;
+    background-color: #4267b2;
+    color: white;
+    font-family: arial;
+    padding: .4rem .5rem;
+    border: 1px solid #29487d;
+}
+header table tr td button:hover{
+    cursor: pointer;
+    background-color:#3b5998 ;
+}
+table tr .forget{
+    opacity: .6;
+    background-color:  #3b5998   ;
+}
+table tr .forget:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color:  #3b5998   ;
+}
+.table tr td input{
+    width: 172px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+}
+.table2 tr td input{
+    width: 385px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.table tr td input::placeholder{
+    font-size: 20px;
+    color: #424949;
+}
+.table2 tr td input::placeholder{
+    font-size: 20px;
+    color: #424949;
+}
+.part1{
+    clear: both;
+    font-family: verdana;
+    columns: #333333;
+    font-size: 12px;
+    margin-top: 50px;
+    width: 500px;
+    display: inline;
+    margin-left: 150px;
+    float: left;
+}
+.part1 h1{
+    width: 90%;
+}
+.content{
+    height: 300px;
+}
+.part2{
+    float: left;
+    margin-left: 150px;
+}
+.sign{
+    font-family: arial;
+    columns: #333333 ;
+}
+.sign h1{
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.note{
+    font-size: 20px;
+    color: #333333;
+    font-family: arial;
+    padding-bottom: 20px;
+}
+.date{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+select{
+    background-color: white;
+    width: 70px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #ccd1d1;
+    margin-top: 10px;
+}
+.date span{
+    font-size: 18px;
+    color: #7f8c8d;
+    font-family: arial;
+    margin: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.gender{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.gender span{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #7f8c8d;
+    font-family: arial;
+    font-weight: bold;
+}
+.gender div{
+    float: left;
+    font-size: 18px;
+    color: #1d2129;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.p1 p{
+    font-size: 10px;
+}
+.tr{
+    clear: both;
+    width: 300px;
+    font-size: 11px;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: #717d7e;
+    font-family: arial;
+}
+.tr span{
+    color: #5499c7;
+}
+.tr span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
